@@ -1,0 +1,99 @@
+body,html {  
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0% auto;
+   font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.bg{
+   background-image: url(../images/papeldeparede1.jpg)
+}
+
+.legenda{
+   position: absolute;
+   left: 35%;
+   bottom: 50%;
+}
+
+.container1 {
+   position: relative;
+   width: 900px;
+   min-height: 350px;
+   box-sizing: border-box;
+   flex-direction: row;
+   /* alinhamento vertical baseado em row */
+   align-items: center;
+   /* alinhamento horizontal */
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+h2 {
+   text-align: center;
+   font-size: 30px;
+   color: rgb(214, 157, 0);
+   text-shadow:
+   -2px 0 black, 0 2px black,
+   2px 0 black, 0 -2px black;
+}
+
+.container2 {
+   padding: 5px;
+   display: flex;
+   width: 900px;
+   height: 350px;
+   box-sizing: border-box;
+   flex-direction: row;
+   /* alinhamento vertical baseado em row */
+   align-items: center;
+   /* alinhamento horizontal */
+   gap: 20px;
+   flex-wrap:wrap;
+}
+
+.box2{
+   width: 45%;
+   text-align: center;
+   height: 300px;
+}
+
+.container3 {
+   display: flex;
+   width: 900px;
+   height: 350px;
+   box-sizing: border-box;
+   flex-direction: row;
+   /* alinhamento vertical baseado em row */
+   align-items: center;
+   /* alinhamento horizontal */
+   gap: 20px;
+   flex-wrap:wrap;
+}
+
+.box3{
+   padding: 3px;
+   width: 45%;
+   text-align: center;
+   height: 300px;
+}
+
+.container4 {
+   width: 900px;
+   height: 350px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   /* alinhamento vertical baseado em row */
+   align-items: center;
+   /* alinhamento horizontal */
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+.box4 {
+   width: 20%;
+   height: 100px;
+}
